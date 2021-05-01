@@ -1,0 +1,408 @@
+@import './scss/fonts';
+@import './bootstrap/scss/bootstrap';
+
+body {
+	background-color: #f4f5f6;
+	font-family: $roboto;
+	scroll-behavior: smooth;
+}
+
+.container-lg {
+	padding: 0;
+	background-color: #fff;
+}
+
+// -------------------------- HEADER --------------------------
+.header {
+	background-color: #f72210;
+	padding: 1.5em;
+	color: #fff;
+	position: relative;
+	top: 0;
+	z-index: 3;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 94% 100%, 89% 90%, 0 91%);
+
+	&__date {
+		font-weight: 500;
+	}
+
+	&__logo {
+		a {
+			svg {
+				fill: #fff;
+
+				@include media-breakpoint-between(xs, lg) {
+					height: 2em;
+					width: 50%;
+				}
+			}
+		}
+	}
+
+	&__btn {
+		font-size: 1.25rem;
+		text-transform: uppercase;
+
+		& > * {
+			font-weight: 600;
+			text-decoration: none;
+			transition: 0.2s ease-in-out;
+		}
+
+		&--login {
+			padding-right: 1em;
+			color: #fff;
+
+			&:hover {
+				color: #ffe400;
+			}
+		}
+
+		&--subscribe {
+			padding: 0.2em 1em;
+			border-radius: 25px;
+			background-color: #ffe400;
+			color: #000;
+
+			&:hover {
+				color: #fff;
+			}
+		}
+
+		i {
+			display: none;
+		}
+	}
+
+	@include media-breakpoint-between(xs, sm) {
+		padding: 0.5em;
+		display: flex;
+		clip-path: none;
+
+		&__date {
+			display: none;
+		}
+
+		i {
+			display: inline-block;
+		}
+
+		&__logo {
+			flex: 1 1 30%;
+		}
+
+		&__btn {
+			flex: 1 2 70%;
+			margin-left: 1em;
+
+			&--login {
+				display: none;
+			}
+		}
+	}
+
+	@include media-breakpoint-between(sm, md) {
+		padding: 0.5em;
+		clip-path: none;
+
+		&__date {
+			display: none;
+		}
+
+		i {
+			display: inline-block;
+		}
+
+		&__btn {
+			&--login {
+				display: none;
+			}
+		}
+	}
+
+	@include media-breakpoint-between(md, lg) {
+		padding: 0.5em;
+		clip-path: none;
+
+		&__date {
+			display: none;
+		}
+
+		i {
+			display: inline-block;
+		}
+	}
+}
+
+.header__bottom {
+	background-color: #fff;
+	width: 100%;
+	position: relative;
+	bottom: 1em;
+	z-index: 2;
+
+	&--first {
+		.nav-item {
+			padding: 0.5em 1em;
+
+			.nav-links {
+				color: #141414;
+				text-decoration: none;
+				font-size: 1.1875rem;
+				font-family: $roboto;
+				font-weight: 600;
+				cursor: pointer;
+				transition: all 0.5s;
+
+				&:hover {
+					color: #f72210;
+				}
+			}
+		}
+
+		.form__search {
+			display: inline-block;
+			position: relative;
+			right: 0;
+			top: 0;
+
+			&--text {
+				width: 5em;
+				border: none;
+				outline: none;
+			}
+
+			&--icon {
+				position: absolute;
+				top: 5px;
+				right: 5px;
+			}
+		}
+	}
+
+	&--second {
+		.nav-item {
+			padding: 0.5em 1.25em;
+			font-size: 1rem;
+			font-family: $roboto;
+			font-weight: 600;
+			text-transform: uppercase;
+			cursor: pointer;
+			transition: all 0.5s;
+
+			&:hover {
+				color: #f72210;
+			}
+		}
+	}
+
+	hr {
+		margin: 0;
+		padding: 0.1em 0;
+		background-color: #e4e4e4;
+	}
+
+	@include media-breakpoint-between(xs, lg) {
+		display: none;
+		clip-path: none;
+
+		hr {
+			display: none;
+		}
+	}
+}
+
+@include media-breakpoint-between(xs, lg) {
+	.mobile__menu {
+		display: inline-block;
+		position: relative;
+		top: 0;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		animation: jump 1s linear alternate;
+
+		@keyframes jump {
+			0% {
+				transform: translateX(-10em);
+			}
+			100% {
+				transform: translateX(0px);
+			}
+		}
+
+		.header__bottom--first,
+		.header__bottom--second {
+			.nav-item {
+				width: 100%;
+				display: flex;
+				flex-direction: column;
+				align-items: flex-end;
+
+				&:not(:last-child) {
+					border-right: none;
+				}
+			}
+		}
+	}
+}
+
+// -------------------------- MAIN --------------------------
+.main--wrapper {
+	width: 100%;
+	padding: 1em;
+
+	.col-lg-12 {
+		padding: 0;
+	}
+
+	.vs {
+		width: 1.5em;
+		margin: 0 auto;
+		padding: 0;
+		border-radius: 50%;
+		background-color: #000;
+		color: #fff;
+
+		h6 {
+			margin: 0;
+			padding: 0.2em 0.3em;
+		}
+	}
+
+	.ads--space {
+		margin: 2em 0;
+		height: 20em;
+		background-color: #aaa;
+	}
+}
+
+.row {
+	margin: 0;
+}
+
+.content--wrapper {
+	padding: 0 1em;
+
+	.content--header {
+		h5,
+		.icon {
+			margin: 0;
+		}
+
+		.icon {
+			margin-right: 0.5em;
+			display: block;
+			height: 28px;
+			width: 29px;
+			background: url('https://g.newsweek.com/www/images/logo-n1.svg')
+				center/contain no-repeat #f72210;
+		}
+	}
+
+	.content--main {
+		.col-lg-3 {
+			padding: 0;
+
+			.card {
+				margin: 0 auto;
+				width: 18em;
+
+				.card-img-top {
+					width: 18em;
+				}
+
+				.card-body {
+					padding: 0;
+
+					a {
+						width: 18em;
+					}
+				}
+			}
+
+			.content-img {
+				height: 310px;
+				width: 300px;
+			}
+		}
+	}
+}
+
+.subscribe--wrapper {
+	padding: 2em 4em;
+
+	h6 {
+		color: #f72210;
+	}
+
+	.subscribe--main {
+		padding: 3.5em 1em;
+		background-color: #f4f5f6;
+	}
+
+	.newsletter--main {
+		border: 1px solid rgba(145, 145, 145, 0.3);
+
+		.newsletter--first {
+			background: url('https://d.newsweek.com/en/full/1541302/starting5-homepage.jpg?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5')
+				center center / cover no-repeat;
+		}
+
+		.newsletter--second {
+			padding: 1em;
+
+			.form-control {
+				margin-bottom: 1em;
+			}
+		}
+	}
+}
+
+// -------------------------- FOOTER --------------------------
+.footer {
+	&__logo {
+		svg {
+			fill: #f72210;
+		}
+	}
+
+	&__icons {
+		a {
+			color: #aaa;
+			padding: 0 0.2em;
+		}
+
+		.facebook {
+			transition: all 0.5s;
+
+			&:hover {
+				color: #4267b2;
+			}
+		}
+
+		.twitter {
+			transition: all 0.5s;
+
+			&:hover {
+				color: #1da1f2;
+			}
+		}
+
+		.instagram {
+			transition: all 0.5s;
+
+			&:hover {
+				color: #833ab4;
+			}
+		}
+
+		.linkedin {
+			transition: all 0.5s;
+
+			&:hover {
+				color: #2867b2;
+			}
+		}
+	}
+}

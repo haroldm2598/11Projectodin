@@ -1,0 +1,1843 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>Newsweek - News, Analysis, Politics, Business, Technology</title>
+
+		<link
+			rel="icon"
+			href="./src/style/image/newsweek-com-favicon-bf8e2211.png"
+		/>
+		<!-- BOOSTRAP CSS -->
+		<link rel="stylesheet" href="./src/style/css/bootstrap/bootstrap.min.css" />
+
+		<!-- FONTAWESOME -->
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+			integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+			crossorigin="anonymous"
+		/>
+		<!-- CUSTOM CSS -->
+		<link rel="stylesheet" href="./src/style/css/main.css" />
+	</head>
+	<body>
+		<div class="container-lg">
+			<header class="header d-flex justify-content-between align-items-end">
+				<div class="header__date"><span>Mon, Apr 26, 2021</span></div>
+
+				<div class="header__logo">
+					<a href="https://www.newsweek.com/">
+						<svg
+							version="1.1"
+							width="396"
+							height="60"
+							xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink"
+							x="0px"
+							y="0px"
+							viewBox="0 0 396 60"
+							style="enable-background: new 0 0 395.6 60"
+							xml:space="preserve"
+						>
+							<g>
+								<path
+									class="st0"
+									d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+								></path>
+							</g>
+						</svg>
+					</a>
+				</div>
+
+				<div class="header__btn">
+					<i class="fas fa-user"></i>
+					<a href="#" class="header__btn--login">login</a>
+					<a href="#" class="header__btn--subscribe"
+						>subscribe <i class="fas fa-angle-right"></i
+					></a>
+					<i class="fas fa-bars" id="menuBars"></i>
+				</div>
+			</header>
+
+			<div class="header__bottom" id="mobileMenu">
+				<ul class="nav header__bottom--first">
+					<li class="nav-item"><a href="#us" class="nav-links">U.S.</a></li>
+					<li class="nav-item"><a href="#world" class="nav-links">World</a></li>
+					<li class="nav-item">
+						<a href="#business" class="nav-links">Business</a>
+					</li>
+					<li class="nav-item">
+						<a href="#technology" class="nav-links">Tech & Science</a>
+					</li>
+					<li class="nav-item">
+						<a href="#culture" class="nav-links">Culture</a>
+					</li>
+					<li class="nav-item">
+						<a href="#newsweek" class="nav-links">Newsgeek</a>
+					</li>
+					<li class="nav-item">
+						<a href="#sports" class="nav-links">Sports</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-links">Health</a>
+					</li>
+					<li class="nav-item"><a href="#" class="nav-links">Opinion</a></li>
+					<li class="nav-item"><a href="#" class="nav-links">Experts</a></li>
+					<li class="nav-item"><a href="#" class="nav-links">Vantage</a></li>
+					<li class="nav-item">
+						<div class="form__search">
+							<input
+								type="text"
+								class="form__search--text"
+								placeholder="Search"
+							/>
+							<i class="fas fa-search form__search--icon"></i>
+						</div>
+					</li>
+				</ul>
+
+				<hr />
+
+				<ul class="nav header__bottom--second">
+					<li class="nav-item">trending</li>
+					<li class="nav-item">joe biden</li>
+					<li class="nav-item">donald trump</li>
+					<li class="nav-item">coronavirus</li>
+					<li class="nav-item">stimulus package</li>
+					<li class="nav-item">vaccine</li>
+					<li class="nav-item">gavin newsom</li>
+				</ul>
+
+				<hr />
+			</div>
+
+			<main>
+				<div class="main--wrapper row">
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<h6 class="h6 text-muted fw-bold text-uppercase">
+							features stories
+						</h6>
+						<div class="row">
+							<div class="col-lg-12">
+								<img
+									src="./src/style/image/news-image01.webp"
+									alt="image_raw"
+									class="img-fluid"
+								/>
+								<h4 class="h4 fw-bolder my-2 lh-1">
+									Gavin Newsom Recall Live Updates: Latest Developments in
+									Calif. Gov. Race
+								</h4>
+								<p class="text-lg-start lh-sm">
+									Organizers have obtained enough verified signatures to trigger
+									a recall election for the governor in the fall.
+								</p>
+							</div>
+
+							<div class="col-lg-12">
+								<img
+									src="./src/style/image/news-image02.webp"
+									alt="image_raw"
+									class="img-fluid"
+								/>
+								<h4 class="h4 fw-bolder my-2 lh-1">
+									Trump 'Ashamed' of Supreme Court as Second Amendment Case
+									Looms
+								</h4>
+								<p class="text-lg-start lh-sm">
+									The Supreme Court will consider the scope of the Second
+									Amendment and Trump wasn't wholly confident about how it would
+									rule.
+								</p>
+							</div>
+
+							<div class="col-lg-12">
+								<img
+									src="./src/style/image/news-image03.webp"
+									alt="image_raw"
+									class="img-fluid"
+								/>
+								<h4 class="h4 fw-bolder my-2 lh-1">
+									Sinema Began as Activist, But Now Arizona Latinos Say Kelly
+									Listens
+								</h4>
+								<p class="text-lg-start lh-sm">
+									When comparing Arizona's two influential moderate Democratic
+									senators, Latino activists say only Mark Kelly gives Hispanic
+									community members the time of day, but the history is more
+									complicated than that.
+								</p>
+							</div>
+
+							<div class="col-lg-12">
+								<img
+									src="./src/style/image/news-image04.webp"
+									alt="image_raw"
+									class="img-fluid"
+								/>
+								<h4 class="h4 fw-bolder my-2 lh-1">
+									Russia Tests New Missile That Country Says Can Fly Faster Than
+									a Bullet
+								</h4>
+								<p class="text-lg-start lh-sm">
+									Amid rising tensions with the West, Russia tested a new space
+									missile designed to protect Moscow from air and space attacks.
+								</p>
+							</div>
+
+							<div class="col-lg-12">
+								<img
+									src="./src/style/image/news-image05.webp"
+									alt="image_raw"
+									class="img-fluid"
+								/>
+								<h4 class="h4 fw-bolder my-2 lh-1">
+									America's Chicken Wing Shortage is Bad for the Planet
+								</h4>
+								<p class="text-lg-start lh-sm">
+									The demand for U.S. chicken abroad increases production at
+									home, production which Karen Davis, president of United
+									Poultry Concerns, said devastates its surrounding environment.
+								</p>
+							</div>
+
+							<div class="col-lg-12">
+								<img
+									src="./src/style/image/news-image06.webp"
+									alt="image_raw"
+									class="img-fluid"
+								/>
+								<h4 class="h4 fw-bolder my-2 lh-1">Macedonia: Tikves Winery</h4>
+								<p class="text-lg-start lh-sm">
+									Tikves wines have won more wine competition awards than any
+									other South East European winery. It is the only winery from
+									SEE region, with ten wines given 90 or more points by
+									influential wine critic Robert Parker.
+								</p>
+							</div>
+
+							<div class="col-lg-12">
+								<img
+									src="./src/style/image/news-image07.webp"
+									alt="image_raw"
+									class="img-fluid"
+								/>
+								<h4 class="h4 fw-bolder my-2 lh-1">
+									World's Best Hospitals 2021
+								</h4>
+								<p class="text-lg-start lh-sm">
+									For the third year, Newsweek has partnered with Statista to
+									reveal the 2,000 World's Best Hospitals in 25 countries
+								</p>
+							</div>
+
+							<div class="col-lg-12">
+								<img
+									src="./src/style/image/news-image08.webp"
+									alt="image_raw"
+									class="img-fluid"
+								/>
+								<h4 class="h4 fw-bolder my-2 lh-1">
+									Dreaming of Warmer Weather: Top 10 Beach & Waterfront Homes
+								</h4>
+								<p class="text-lg-start lh-sm">
+									Only the Best Beach and Waterfront Homes From Architectural
+									Designs
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-sm-12">
+						<h6 class="h6 text-muted fw-bold text-uppercase">top story</h6>
+						<div class="row">
+							<div class="col-lg-12">
+								<img
+									src="./src/style/image/news1-image01.webp"
+									alt="image_raw"
+									class="img-fluid"
+								/>
+								<h4 class="h4 my-2 fw-bold">
+									Joe Biden Calls for 'Once in a Generation' Investment in
+									America
+								</h4>
+								<p>
+									In the speech, Biden touted his American Jobs Plan and
+									mentioned his administration's legislative agenda, including
+									expanding civil rights and reforming the nation's immigration
+									system.
+								</p>
+
+								<hr />
+
+								<div class="row">
+									<div class="col-lg-3 col-md-5 col-sm-4">
+										<img
+											src="./src/style/image/avatar01.webp"
+											alt="icon"
+											class="img-fluid"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8">
+										<h6 class="h6 fw-bold">
+											Progressives Want Biden to Tell Police 'Stop Killing Us'
+											and to Implement Reparations
+										</h6>
+										<p class="lh-sm">
+											Representative Jamaal Bowman responded to the president's
+											joint address of Congress with an outline of progressives
+											agenda to 'rebuild our nation with a new foundation."
+										</p>
+									</div>
+									<hr />
+									<div class="col-lg-12 col-md-12 col-sm-12">
+										<h4 class="h5 px-2 fw-bold">
+											Progressives Want Biden to Tell Police 'Stop Killing Us'
+											and to Implement Reparations
+										</h4>
+									</div>
+									<hr />
+								</div>
+
+								<div class="row gap-4">
+									<h6 class="h6 p-0 fw-bolder text-uppercase text-muted">
+										my turn
+									</h6>
+									<div class="col-lg-3 col-md-3 col-sm-3 px-0">
+										<img
+											src="https://d.newsweek.com/en/full/1782710/prison-illiteracy-reading-twilight.webp?w=160&h=160&f=41032f39770559aefd3c2f67175abda7"
+											alt=""
+											class="img-fluid"
+										/>
+										<p class="lh-sm pt-1">
+											'I Learned To Read In Prison—Using The Twilight Books'
+										</p>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3 px-0">
+										<img
+											src="https://d.newsweek.com/en/full/1782504/transgender-black-women-hiv.jpg?w=160&h=160&f=90f6b18cfb52b96147d564ee6a692845"
+											alt=""
+											class="img-fluid"
+										/>
+										<p class="lh-sm pt-1">
+											'I'm Black, Trans and HIV Positive'
+										</p>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3 px-0">
+										<img
+											src="https://d.newsweek.com/en/full/1782339/troop6000.webp?w=160&h=160&f=874b241b02a43e5bd68b8a649b2f1a10"
+											alt=""
+											class="img-fluid"
+										/>
+										<p class="lh-sm pt-1">
+											'I Lead a Troop of Girl Scouts Living in NYC Shelters'
+										</p>
+									</div>
+								</div>
+
+								<div class="row gap-4">
+									<h6 class="h6 p-0 fw-bolder text-uppercase text-muted">
+										culture & travel
+									</h6>
+									<div class="col-lg-3 col-md-3 col-sm-3 px-0">
+										<img
+											src="https://d.newsweek.com/en/full/1777775/curious-southern-right-whale.webp?w=160&h=160&f=bba2d1684efa7d486d1bb87161eea6ec"
+											alt=""
+											class="img-fluid"
+										/>
+										<p class="lh-sm pt-1">
+											The 'Avatar' Connection to Cameron's Whales Doc: They're
+											Just Like Us
+										</p>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3 px-0">
+										<img
+											src="https://d.newsweek.com/en/full/1775497/cul-map-sustainability-mars.webp?w=160&h=160&f=6d251bdf6b4b914390d7c7b8b545219a"
+											alt=""
+											class="img-fluid"
+										/>
+										<p class="lh-sm pt-1">
+											These Sustainability Innovations Around the World are
+											Revolutionary
+										</p>
+									</div>
+									<div class="col-lg-3 col-md-3 col-sm-3 px-0">
+										<img
+											src="https://d.newsweek.com/en/full/1746648/cul-map-flavors-fattoush.webp?w=160&h=160&l=50&t=53&f=a719c0c8770f93c403d3040adb82e9e7"
+											alt=""
+											class="img-fluid"
+										/>
+										<p class="lh-sm pt-1">
+											The Kitchen without Borders: Dishes From Refugee and
+											Immigrant Chefs
+										</p>
+									</div>
+								</div>
+
+								<div class="row">
+									<h6 class="h6 p-0 fw-bold text-muted">MORE STORIES</h6>
+									<div class="col-lg-3 col-md-5 col-sm-4 p-0">
+										<img
+											src="https://d.newsweek.com/en/full/1771943/ohio-new-stand-your-ground-gun-law.webp?w=95&h=95&f=fa6be998024d94a6c49d6def0a7a8958"
+											alt="icon"
+											class="img-fluid"
+											style="height: 6em; width: 8em"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8 p-0">
+										<h6 class="h6 fw-bold">
+											Progressives Want Biden to Tell Police 'Stop Killing Us'
+											and to Implement Reparations
+										</h6>
+										<p class="lh-sm">
+											Representative Jamaal Bowman responded to the president's
+											joint address of Congress with an outline of progressives
+											agenda to 'rebuild our nation with a new foundation."
+										</p>
+									</div>
+
+									<div class="col-lg-3 col-md-5 col-sm-4 p-0">
+										<img
+											src="https://d.newsweek.com/en/full/1784177/beauvais-told-listeners-f-police.webp?w=95&h=95&f=958b3c388b5539da07e316501f09b45a"
+											alt="icon"
+											class="img-fluid"
+											style="height: 6em; width: 8em"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8 p-0">
+										<h6 class="h6 fw-bold">
+											Suspect Made Podcast Rant Against Police Hours Before
+											Crash Killed NYPD Cop
+										</h6>
+										<p class="lh-sm">
+											Jessica Beauvais signed off her Facebook livestream by
+											telling listeners: "F*** the police."
+										</p>
+									</div>
+
+									<div class="col-lg-3 col-md-5 col-sm-4 p-0">
+										<img
+											src="https://d.newsweek.com/en/full/1784251/chinese-foreign-ministry-apokesman-zhao-lijian.webp?w=95&h=95&f=68432d0b17113abf6db67ab5d0b70165"
+											alt="icon"
+											class="img-fluid"
+											style="height: 6em; width: 8em"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8 p-0">
+										<h6 class="h6 fw-bold">
+											China Accuses Japan of 'Playing Deaf and Dumb' on
+											Radioactive Water Plan
+										</h6>
+										<p class="lh-sm">
+											China ridiculed Japan for its decision to release
+											radioactive water into the Pacific.
+										</p>
+									</div>
+
+									<div class="col-lg-3 col-md-5 col-sm-4 p-0">
+										<img
+											src="https://d.newsweek.com/en/full/1784457/northern-ireland-leader-arlene-foster-resigns.webp?w=95&h=95&f=d3a16ec061a98b2072f1d7b8a514d49e"
+											alt="icon"
+											class="img-fluid"
+											style="height: 6em; width: 8em"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8 p-0">
+										<h6 class="h6 fw-bold">
+											Dispute About Brexit Leads Northern Ireland's Arlene
+											Foster to Resign
+										</h6>
+										<p class="lh-sm">
+											The announcement came after several lawmakers in her party
+											signed a letter of no-confidence in her over her support
+											for Brexit, which resulted in controversial post-exit
+											trade rules in the region.
+										</p>
+									</div>
+
+									<div class="col-lg-3 col-md-5 col-sm-4 p-0">
+										<img
+											src="https://d.newsweek.com/en/full/1784128/dogecoin.jpg?w=95&h=95&f=bed29ff1523d191693cb37ba6ec12d5b"
+											alt="icon"
+											class="img-fluid"
+											style="height: 6em; width: 8em"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8 p-0">
+										<h6 class="h6 fw-bold">
+											Dogecoin Spikes After Elon Musk Tweets, Mark Cuban
+											Endorses Crypto on Ellen
+										</h6>
+										<p class="lh-sm">
+											Dogecoin's price was up sharply on Wednesday morning,
+											though experts have warned about its infamous market
+											volatility.
+										</p>
+									</div>
+
+									<div class="col-lg-3 col-md-5 col-sm-4 p-0">
+										<img
+											src="https://d.newsweek.com/en/full/1784060/mario-gonzalez.webp?w=95&h=95&f=0b729199377f39b929a3dcd8d833f252"
+											alt="icon"
+											class="img-fluid"
+											style="height: 6em; width: 8em"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8 p-0">
+										<h6 class="h6 fw-bold">
+											Mario Gonzalez Bodycam Video Shows Police Kneeling on Him
+											Before His Death
+										</h6>
+										<p class="lh-sm">
+											Gonzalez, 26, died after an encounter with police officers
+											in a park in Alameda, California on April 19.
+										</p>
+									</div>
+
+									<div class="col-lg-3 col-md-5 col-sm-4 p-0">
+										<img
+											src="https://d.newsweek.com/en/full/1784320/russia-calls-baltic-nations-slovakia-openly-hostile.webp?w=95&h=95&f=8fe3ea22c38029962810428e437f5584"
+											alt="icon"
+											class="img-fluid"
+											style="height: 6em; width: 8em"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8 p-0">
+										<h6 class="h6 fw-bold">
+											Russia Says Baltic Nations, Slovakia 'Openly Hostile' as
+											Diplomats Expelled
+										</h6>
+										<p class="lh-sm">
+											Russian Foreign Ministry ambassadors ordered three
+											diplomats from Slovakia, two from Lithuania, and one each
+											from Estonia and Latvia to depart Russia in a week.
+										</p>
+									</div>
+
+									<div class="col-lg-3 col-md-5 col-sm-4 p-0">
+										<img
+											src="https://d.newsweek.com/en/full/1784172/chinese-spy-plane-flies-low-altitude-mission.webp?w=95&h=95&f=36ea9b1915a4f2367736532fbfdb4973"
+											alt="icon"
+											class="img-fluid"
+											style="height: 6em; width: 8em"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8 p-0">
+										<h6 class="h6 fw-bold">
+											China Spy Plane Detected Near Taiwan Was on Anti-Submarine
+											Mission: Analyst
+										</h6>
+										<p class="lh-sm">
+											A radio intercept revealed that Taiwan's air force issued
+											a warning to a Chinese aircraft flying at an altitude of
+											just 100 feet above the sea.
+										</p>
+									</div>
+
+									<div class="col-lg-3 col-md-5 col-sm-4 p-0">
+										<img
+											src="https://d.newsweek.com/en/full/1784182/us-navy-iran-ship.webp?w=95&h=95&f=3e383cb70586a340301841f6d3784c1d"
+											alt="icon"
+											class="img-fluid"
+											style="height: 6em; width: 8em"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8 p-0">
+										<h6 class="h6 fw-bold">
+											U.S. Warship Sends Warning Shots to Iran After They Get
+											Too Close
+										</h6>
+										<p class="lh-sm">
+											A U.S. warship fired warning shots when an Iranian
+											military vessel came too close to a patrol in the Persian
+											Gulf, the U.S. Navy said Wednesday.
+										</p>
+									</div>
+
+									<div class="col-lg-3 col-md-5 col-sm-4 p-0">
+										<img
+											src="https://d.newsweek.com/en/full/1784129/ghislaine-maxwell-elton-john-aids-benefit.webp?w=95&h=95&f=3092ed34ffb36e0cdbb7c7b433b4d276"
+											alt="icon"
+											class="img-fluid"
+											style="height: 6em; width: 8em"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8 p-0">
+										<h6 class="h6 fw-bold">
+											Ghislaine Maxwell Fails To Sway Judge With Claims of Sleep
+											Deprivation
+										</h6>
+										<p class="lh-sm">
+											Jeffrey Epstein's former lover told an appeals court she
+											needed bail due to sleeping with a sock over her eyes
+											because prison guards shine a torch into her room every 15
+										</p>
+									</div>
+
+									<div class="col-lg-3 col-md-5 col-sm-4 p-0">
+										<img
+											src="https://d.newsweek.com/en/full/1784301/india-covid-19.webp?w=95&h=95&f=a1d8a851caa91d5eac6c474e2a2555d6"
+											alt="icon"
+											class="img-fluid"
+											style="height: 6em; width: 8em"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8 p-0">
+										<h6 class="h6 fw-bold">
+											Indian City Using Dog Crematorium for Humans as COVID
+											Death Toll Skyrockets
+										</h6>
+										<p class="lh-sm">
+											With the number of COVID-19 funerals approaching 1,000 a
+											day in Delhi, city officials said they plan to create
+											temporary human funeral pyre platforms – or structures
+											meant for burning bodies – at a municipal dog crematorium
+											site.
+										</p>
+									</div>
+
+									<div class="col-lg-3 col-md-5 col-sm-4 p-0">
+										<img
+											src="https://d.newsweek.com/en/full/1784148/armenian-genocide-protester.webp?w=95&h=95&f=e578b462924c874a97331e51c8f4c3e3"
+											alt="icon"
+											class="img-fluid"
+											style="height: 6em; width: 8em"
+										/>
+									</div>
+									<div class="col-lg-9 col-md-7 col-sm-8 p-0">
+										<h6 class="h6 fw-bold">
+											Armenian Genocide Warning by Turkish Lawmaker Prompts
+											Criminal Complaint
+										</h6>
+										<p class="lh-sm">
+											A member of the Turkish parliament has been accused of
+											threatening a left-wing colleague on Twitter.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-sm-12">
+						<h6 class="h6 text-muted fw-bold text-uppercase">the debate</h6>
+						<hr />
+
+						<div class="row">
+							<div class="col-lg-3 col-md-3 col-sm-2 p-0">
+								<img
+									src="https://d.newsweek.com/en/full/1783732/billy-binion.png?w=63&h=63&f=1341ebc78de4668cb5e742833c2cbc24"
+									alt=""
+									class="img-fluid"
+								/>
+							</div>
+							<div class="col-lg-9 col-md-9 col-sm-8 p-0">
+								<h6 class="h6 fw-bold">
+									It's Time to Get Rid of Qualified Immunity
+								</h6>
+								<p class="text-muted text-uppercase">by billy binion</p>
+							</div>
+
+							<div class="col-lg-12">
+								<div class="vs my-2">
+									<h6 class="h6 text-uppercase fw-bolder">vs</h6>
+								</div>
+							</div>
+
+							<div class="col-lg-9 col-md-9 col-sm-9 p-0">
+								<h6 class="h6 fw-bold">
+									Qualifying the Debate Over Qualified Immunity
+								</h6>
+								<p class="text-muted text-uppercase">BY JAMES R. COPLAND</p>
+							</div>
+							<div class="col-lg-3 col-md-3 col-sm-3 p-0">
+								<img
+									src="https://d.newsweek.com/en/full/1783273/james-r-copland.png?w=63&h=63&f=425efc88d1a101b43bc2e69a9d9325eb"
+									alt=""
+									class="img-fluid"
+								/>
+							</div>
+						</div>
+
+						<hr />
+						<h6 class="h6 text-muted fw-bold text-uppercase">opinion</h6>
+						<div class="row">
+							<div class="col-lg-3 p-0">
+								<img
+									src="https://d.newsweek.com/en/full/1782409/nick-martin.webp?w=63&h=63&f=6661e61926b330952c7a7586243696bd"
+									alt="avatar"
+								/>
+							</div>
+							<div class="col-lg-9 p-0">
+								<h6 class="h6 fw-bold">Higher Ed Needs Higher Tech</h6>
+								<p class="text-muted text-uppercase p-0 m-0">BY NICK MARTIN</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-3 p-0">
+								<img
+									src="https://d.newsweek.com/en/full/1783094/preston-lim-ryan-dukeman.webp?w=63&h=63&f=162d51d071a5cd8d9cfeed3379a94653"
+									alt="avatar"
+								/>
+							</div>
+							<div class="col-lg-9 p-0">
+								<h6 class="h6 fw-bold">
+									Vaccine Diplomacy Should Start in its Backyard America's
+									Vaccine Diplomacy Should Start in its Backyard
+								</h6>
+								<p class="text-muted text-uppercase p-0 m-0">
+									BY PRESTON LIM AND RYAN DUKEMAN
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-3 p-0">
+								<img
+									src="https://d.newsweek.com/en/full/1715766/danny-danon.webp?w=63&h=63&f=4204f3ff55cb6029795de160c99dde41"
+									alt="avatar"
+								/>
+							</div>
+							<div class="col-lg-9 p-0">
+								<h6 class="h6 fw-bold">A Wolf in Sheep's Clothing</h6>
+								<p class="text-muted text-uppercase p-0 m-0">BY DANNY DANON</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-3 p-0">
+								<img
+									src="https://d.newsweek.com/en/full/1784375/julia-schulman-richard-goldberg.webp?w=63&h=63&f=e840f3a4377f6d521e0785d47fe2d687"
+									alt="avatar"
+								/>
+							</div>
+							<div class="col-lg-9 p-0">
+								<h6 class="h6 fw-bold">
+									Needs to Review UN Agency's Terror Finance Problem Congress
+									Needs to Review UN Agency's Terror Finance Problem
+								</h6>
+								<p class="text-muted text-uppercase p-0 m-0">
+									BY JULIA SCHULMAN AND RICHARD GOLDBERG
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-3 p-0">
+								<img
+									src="https://d.newsweek.com/en/full/1595697/shoshana-bryen.webp?w=63&h=63&f=dd2a7a27263e137012676834587c4142"
+									alt="avatar"
+								/>
+							</div>
+							<div class="col-lg-9 p-0">
+								<h6 class="h6 fw-bold">Democratic Norms Come First</h6>
+								<p class="text-muted text-uppercase p-0 m-0">
+									BY SHOSHANA BRYEN
+								</p>
+							</div>
+						</div>
+
+						<div class="col-lg-12">
+							<div class="ads--space">
+								<h6 class="h6 text-uppercase text-center">ads space</h6>
+							</div>
+						</div>
+
+						<div class="col-lg-12">
+							<div class="card">
+								<img
+									src="./src/style/image/avatar01.webp"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">
+										Hungary: Transformation and Innovation
+									</h5>
+									<p class="card-text">
+										The dynamic Central European nation has turned itself into a
+										vibrant and diversified industrial powerhouse. Many
+										investors are now betting the country will stage a rapid
+										economic recovery post COVID-19.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-12 mb-2">
+							<div class="card">
+								<img
+									src="./src/style/image/avatar01.webp"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">
+										Hungary: Transformation and Innovation
+									</h5>
+									<p class="card-text">
+										The dynamic Central European nation has turned itself into a
+										vibrant and diversified industrial powerhouse. Many
+										investors are now betting the country will stage a rapid
+										economic recovery post COVID-19.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-12 mb-2">
+							<div class="card">
+								<img
+									src="./src/style/image/avatar01.webp"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">
+										Hungary: Transformation and Innovation
+									</h5>
+									<p class="card-text">
+										The dynamic Central European nation has turned itself into a
+										vibrant and diversified industrial powerhouse. Many
+										investors are now betting the country will stage a rapid
+										economic recovery post COVID-19.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-12 mb-2">
+							<div class="card">
+								<img
+									src="./src/style/image/avatar01.webp"
+									alt=""
+									class="card-img-top"
+								/>
+								<div class="card-body">
+									<h5 class="card-title">
+										Hungary: Transformation and Innovation
+									</h5>
+									<p class="card-text">
+										The dynamic Central European nation has turned itself into a
+										vibrant and diversified industrial powerhouse. Many
+										investors are now betting the country will stage a rapid
+										economic recovery post COVID-19.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="content--wrapper">
+					<!-- SECTION FOR MAIN CONTENT -->
+					<div
+						class="content--header d-flex flex-sm justify-content-center align-items-center"
+					>
+						<span class="icon"></span>
+						<h5 class="h5 text-uppercase fw-bold">in the magazine</h5>
+					</div>
+					<hr />
+					<div class="content--main row">
+						<div class="col-lg-3 col-md-6">
+							<div class="card">
+								<img
+									src="https://d.newsweek.com/en/full/1783522/cover-may-7-2021.webp?w=290&h=387&q=90&f=2dfa1129d7d3f7974b5031b6db98f7a8"
+									alt="cover"
+									class="card-img-top"
+								/>
+								<div class="card-body">
+									<a
+										href="#"
+										class="btn btn-outline-dark text-uppercase fw-bolder"
+										>see all features <i class="fas fa-angle-right"></i
+									></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6 my-4">
+							<img
+								src="https://d.newsweek.com/en/full/1779263/biden-yoshihide-suga-white-house.webp?w=466&h=311&q=90&f=c9b65bad0f3a2aa34646e9bd834f3aca"
+								alt="content"
+								class="img-fluid content-img"
+							/>
+							<h6 class="h6 fw-bold text-uppercase my-2">
+								cover <span>new</span>
+							</h6>
+							<h5 class="h5 fw-bolder lh-1 m-0">
+								Joe Biden Sees Japan's Leader as His "Ally in Chief" as China
+								Tensions Rise
+							</h5>
+						</div>
+
+						<div class="col-lg-3 col-md-6 my-4">
+							<img
+								src="https://d.newsweek.com/en/full/1779541/yoshihide-suga-us-visit.webp?w=466&h=311&l=49&t=57&q=90&f=ac6052671affb42325f971fb349b60a2"
+								alt="content"
+								class="img-fluid content-img"
+							/>
+							<h6 class="h6 fw-bold text-uppercase my-2">
+								cover <span>world</span>
+							</h6>
+							<h5 class="h5 fw-bolder lh-1 m-0">
+								Exclusive: Japanese Leader Suga, on Challenge of China, Alliance
+								with U.S.
+							</h5>
+						</div>
+
+						<div class="col-lg-3 col-md-6 my-4">
+							<img
+								src="https://d.newsweek.com/en/full/1781107/george-floyd.webp?w=466&h=311&q=90&f=97c5a810701625d9afcc2c12c1cab071"
+								alt="content"
+								class="img-fluid content-img"
+							/>
+							<h6 class="h6 fw-bold text-uppercase my-2">
+								periscope <span>opinion</span>
+							</h6>
+							<h5 class="h5 fw-bolder lh-1 m-0">
+								The Coming Era of Police Accountability
+							</h5>
+						</div>
+
+						<div class="col-lg-3 col-md-6 my-4">
+							<img
+								src="https://d.newsweek.com/en/full/1781240/police-officers-take-knee.webp?w=466&h=311&q=90&f=14e01b0ff5f1605de380ddecdd8fdffe"
+								alt="content"
+								class="img-fluid content-img"
+							/>
+							<h6 class="h6 fw-bold text-uppercase my-2">
+								periscope <span>culture</span>
+							</h6>
+							<h5 class="h5 fw-bolder lh-1 m-0">
+								Chauvin's Guilty Verdict Proves You Can Support Black Lives and
+								Police
+							</h5>
+						</div>
+
+						<div class="col-lg-3 col-md-6 my-4">
+							<img
+								src="https://d.newsweek.com/en/full/1782369/jamaal-bowman.webp?w=466&h=311&q=90&f=34aacc45b1e58caf4241a5f8a6a25dab"
+								alt="content"
+								class="img-fluid content-img"
+							/>
+							<h6 class="h6 fw-bold text-uppercase my-2">
+								periscope <span>culture</span>
+							</h6>
+							<h5 class="h5 fw-bolder lh-1 m-0">
+								Bowman Hails Biden's Progressive Agenda, But Continues Push From
+								The Left
+							</h5>
+						</div>
+
+						<div class="col-lg-3 col-md-6 my-4">
+							<img
+								src="https://d.newsweek.com/en/full/1783203/cul-japanese-breakfast-01.webp?w=466&h=311&l=57&t=41&q=90&f=dd19c4094c1df848cafd48244848b060"
+								alt="content"
+								class="img-fluid content-img"
+							/>
+							<h6 class="h6 fw-bold text-uppercase my-2">
+								downtime <span>culture</span>
+							</h6>
+							<h5 class="h5 fw-bolder lh-1 m-0">
+								Michelle Zauner Talks About Crying in H Mart
+							</h5>
+						</div>
+
+						<div class="col-lg-3 col-md-6 my-4">
+							<img
+								src="https://d.newsweek.com/en/full/1783524/justice.webp?w=480&h=320&q=90&f=3bbf9d055e7a44cf92ee33b885964460"
+								alt="content"
+								class="img-fluid content-img"
+							/>
+							<h6 class="h6 fw-bold text-uppercase my-2">
+								justice <span>politics</span>
+							</h6>
+						</div>
+					</div>
+
+					<!-- SECTION FOR SUB CONTENT -->
+					<div
+						class="content--header d-flex flex-sm justify-content-center align-items-center"
+					>
+						<span class="icon"></span>
+						<h5 class="h5 text-uppercase fw-bold">editor's pick</h5>
+					</div>
+					<hr />
+					<div class="content--sub row">
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1784743/sen-tim-scott-r-sc.webp?w=397&h=265&f=7ab0e14d0a0240a2ab9dc3ae89a294d8"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h4 class="h4 fw-bolder lh-sm">
+								What Tim Scott Has Said About Racism
+							</h4>
+							<p class="lh-sm">
+								The South Carolina senator, who is the only Black Republican in
+								the upper house, gave the GOP's response to President Joe
+								Biden's joint address to Congress.
+							</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1784479/joe-biden-100-days-cabinet.webp?w=397&h=265&f=fd4fb1898bd5a7d3063c2afc30590a3e"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h4 class="h4 fw-bolder lh-sm">
+								Here's How Biden's Cabinet Compares to His Predecessors 100 Days
+								In
+							</h4>
+							<p class="lh-sm">
+								Biden has the most diverse cabinet yet and has confirmed all 15
+								secretaries, but one cabinet-level position remains undecided
+								100 days into his presidency.
+							</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785000/covid-stimulus-spending.webp?w=397&h=265&f=3984695624132ddf27ad79d3a58c6e29"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h4 class="h4 fw-bolder lh-sm">
+								Economists Predict 7% Economy Growth, Prompted by Stimulus
+								Packages
+							</h4>
+							<p class="lh-sm">
+								The combination of stimulus checks, widespread vaccinations and
+								the reopening of businesses has meant rapid growth in the
+								economy, and experts predict the fastest annual growth in
+								decades.
+							</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785083/opioid-crisis-pandemic.webp?w=397&h=265&f=0da3d6b1ec2e0a164ea26d76bfdce819"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h4 class="h4 fw-bolder lh-sm">
+								'War on Drugs' Hasn't Translated to Success in Combating Opioid
+								Crisis
+							</h4>
+							<p class="lh-sm">
+								Representative Bob Latta and Annie Kuster explain the causes and
+								possible solutions ongoing opioid crisis in the U.S. that has
+								grown worse during the COVID-19 pandemic.
+							</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785040/serra-birreria-restaurant-nyc.webp?w=397&h=265&f=ab6ac8e9d6a14df2f5a7339756e78184"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h4 class="h4 fw-bolder lh-sm">
+								When New York City Will Reopen, Bill de Blasio Outlines Timeline
+							</h4>
+							<p class="lh-sm">
+								Bill de Blasio's latest announcement follows one by Gov. Andrew
+								Cuomo on Wednesday announcing bar seating in New York City will
+								resume on May 3.
+							</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785100/jessica-rosenworcel-brendan-carr.webp?w=397&h=265&f=e5631c09406ae1eb4c7d5885e36d33e5"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h4 class="h4 fw-bolder lh-sm">
+								GOP FCC Commissioner Wants Chair to Reject Pressure on Miami
+								Station Sale
+							</h4>
+							<p class="lh-sm">
+								Brendan Carr is calling on acting FCC chair, Jessica
+								Rosenworcel, to speak out on a pressure campaign from Democratic
+								lawmakers against the sale of a Miami radio station because she
+								denounced pressure from Donald Trump previously.
+							</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1784989/covid-19-patient-new-dehli-india.webp?w=397&h=265&f=944d21d4b45b7ebb385201502432b962"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h4 class="h4 fw-bolder lh-sm">
+								India's Seven-Day COVID Case Average Reaches 350,000
+							</h4>
+							<p class="lh-sm">
+								The White House said it will deliver more than $100 million
+								worth of supplies to India, which set a global record for new
+								COVID-19 cases Thursday. U.S. aid includes an initial delivery
+								of 1,100 oxygen cylinders, 15 million N95 masks and 1 million
+								rapid diagnostic tests.
+							</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1784927/alexei-navalny-mural-painted-over.webp?w=397&h=265&f=e3d84ddad79e3afae3db1a7401243697"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h4 class="h4 fw-bolder lh-sm">
+								Alexei Navalny Calls Putin 'the Emperor With No Clothes' in
+								Court Hearing
+							</h4>
+							<p class="lh-sm">
+								Appealing his conviction in court, the Russian opposition leader
+								spoke by video from prison.
+							</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785030/elizabeth-city.webp?w=397&h=265&f=2562166db766a75010d0d3d562489aa7"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h4 class="h4 fw-bolder lh-sm">
+								Arrests Made as Andrew Brown Jr. Protesters Defy Curfew in
+								Elizabeth City
+							</h4>
+							<p class="lh-sm">
+								In one video, several police officer with the Elizabeth City
+								Police Department can be seen arresting a man in what appears to
+								be a parking lot.
+							</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1784850/donald-trump.webp?w=397&h=265&f=42e8f3b683550ad395ee4ef50455ba2b"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h4 class="h4 fw-bolder lh-sm">
+								Trump Says '100 Percent' He's 'Thinking About Running' for
+								President Again
+							</h4>
+							<p class="lh-sm">
+								The former president took aim at Joe Biden over his
+								administration's response to the influx of undocumented
+								migrants, China and tax policy.
+							</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1783937/protester-faces-down-police-nc.webp?w=397&h=265&f=65a9aac66b9a82a08142a749b3493f3a"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h4 class="h4 fw-bolder lh-sm">
+								1,050 Died in Police Encounters Between Floyd Murder, Chauvin
+								Verdict
+							</h4>
+							<p class="lh-sm">
+								At least 979 civilians were killed by police between May 25,
+								2020 and April 20, 2021, with 71 police officers also killed in
+								the line of duty.
+							</p>
+						</div>
+
+						<div class="col-lg-3 col-md-6 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1762191/palestinian-authority-president-mahmoud-abbas.webp?w=397&h=265&f=2e2996a653378154bc1708d25da4cfc0"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h4 class="h4 fw-bolder lh-sm">
+								Palestinian President Mahmmoud Abbas Curses China, Russia, U.S.
+								and Arabs
+							</h4>
+							<p class="lh-sm">
+								Leaked audio, reportedly of Abbas speaking, was posted on social
+								media
+							</p>
+						</div>
+					</div>
+					<hr />
+
+					<!-- SECTION FOR COUNTRY NEWS -->
+					<div class="content--first row" id="us">
+						<h4 class="h4 fw-bold text-muted">U.S.</h4>
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785188/de-blasio-calls-giuliani-unhinged.webp?w=397&h=265&f=dcf6b76b71d4a375725c68ca439f76da"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								Bill de Blasio Says Rudy Giuliani Has 'Just Come Unhinged in
+								Every Sense'
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785235/idaho-republican-aaron-von-ehlinger-resigns-rape.webp?w=397&h=265&f=8cc5e95e5462c04dd83e27783a4cff2a"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								Idaho State Representative Aaron von Ehlinger Resigns After Rape
+								Accusation
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<div class="row">
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1785196/governor-kim-reynolds.webp?w=95&h=95&f=37872ddc933ba1ad28ad3d885bffd1f9"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Iowa Man Accused of Threatening Governor Says He Was Giving
+										His 'Opinion'
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1785175/north-carolina-transgender-sports-bill.webp?w=95&h=95&f=69a5efc2c7f7b8f742263d33ad38f17b"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										NC Ditches Transgender Sports Legislation as Florida Gov.
+										Prepares to Sign
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1785168/aaron-von-ehlinger.webp?w=95&h=95&f=3672be90782904dd81bb1e5a8673a551"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Idaho Rep Accused of Rape Should Be Suspended From Office:
+										Ethics Panel"
+									</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- SECTION FOR WORLD NEWS -->
+					<hr />
+					<div class="content--second row" id="world">
+						<h4 class="h4 fw-bold text-muted">World</h4>
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785179/protests-czech-republic.webp?w=397&h=265&f=918ec7156e63abe0cdc84d4f71f7a1d7"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								Czech Citizens Protest President for Pushing Country Into Arms
+								of Russia
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785191/dadaab-refugee-complex-kenya.webp?w=397&h=265&f=3f67af578f76a85e24074cae82ea8573"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								Kenyan Refugee Camps With Over 400K Somalis, Sudanese to Close
+								in 2022
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<div class="row">
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1785158/andrey-borovikov-alexei-navalny-prison-sentence.webp?w=95&h=95&f=c056d647cd61abc0327e204607a8fa2c"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										'Team Navalny' Coordinator Sentenced to Prison for Sharing
+										German Music Vid
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1785082/russia-sputnik-vaccine.webp?w=95&h=95&f=a6d0eef6bd9ec659988282b3ab870ca8"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Brazil Claims Russian COVID Vaccine Has Cold-Causing Virus
+										Due to Defect
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1785091/mexico-covid.webp?w=95&h=95&f=44e38330845c9525428b603f95e63a8f"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										s That Border U.S. Have Higher Rates of COVID Exposure
+										Mexican States That Border U.S. Have Higher Rates of COVID
+										Exposure
+									</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- SECTION FOR BUSINESS NEWS -->
+					<hr />
+					<div class="content--third row" id="business">
+						<h4 class="h4 fw-bold text-muted">Business</h4>
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785142/taiwan.webp?w=397&h=265&f=2e4057256ac49e16498e461a056e0642"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								Taiwan Bans Companies From Hiring Employees in China as Tensions
+								Rise
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1784602/florida-alcohol-go-law.webp?w=397&h=265&f=90246742253b844f21b6a3c007c8898d"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								Florida Set to Permanently Allow To-Go Alcoholic Drinks
+								Post-Pandemic
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<div class="row">
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1783130/albertbourla.webp?w=95&h=95&f=942f0100468ffa75872e879f9a917b1e"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										The Big Pharma CEO Who's Helping to Put an End to COVID-19
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1782364/american-express-card.webp?w=95&h=95&f=deb5a052d125ab3b8a83a2ada1789dd5"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										American Express Saw 40% Spending Bump on Travel,
+										Entertainment in March
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1782335/n95-mask.webp?w=95&h=95&f=07aa9da98351a947cbb839ea7ea8e913"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Maker of N95 Masks Says Company Has Millions of Unsold Units
+										U.S.' Largest Maker of N95 Masks Says Company Has Millions
+										of Unsold Units
+									</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- SECTION FOR TECHNOLOGY NEWS -->
+					<hr />
+					<div class="content--third row" id="technology">
+						<h4 class="h4 fw-bold text-muted">Business</h4>
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785026/asteroid-impact.webp?w=397&h=265&f=36b0fdbdd48d7ce8318f45ece0f13e9c"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								NASA Simulates Asteroid Hitting Earth With the Force of a Huge
+								Nuclear Bomb
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785017/sundress-woman-walking.webp?w=397&h=265&f=5a7d6ccbccbbc633296716b7c3ac7ff8"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								'Sundress Challenge' Banned on TikTok For Violating Guidelines
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<div class="row">
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1783130/albertbourla.webp?w=95&h=95&f=942f0100468ffa75872e879f9a917b1e"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Rumours Facebook Bought Bitcoin Fail to Materialize in
+										Earnings Call
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1784809/north-carolina-dog-attack-pitbull-stock-getty.webp?w=95&h=95&f=bf60e70603d5cf516a75e601e5d77305"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Dog Attack That Killed 7-Year-Old 'Could've Happened to
+										Anyone'
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1784746/spacex-launch.webp?w=95&h=95&f=c42cd4eef34534b363df2a3ed4b05e2c"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Watch SpaceX Falcon 9 Rocket Launch 60 Starlink Satellites
+										Into Orbit
+									</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- SECTION FOR CULTURE NEWS -->
+					<hr />
+					<div class="content--fourth row" id="culture">
+						<h4 class="h4 fw-bold text-muted">Culture</h4>
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785200/smartphone-photos.webp?w=397&h=265&f=c764bec63b7f82335106df2d39824712"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								5 Tricks to Take the Better Photos, According to TikTok
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785061/alex-jean-trebek.webp?w=397&h=265&f=3b5165a4bf69a60d61469c747d7c1633"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								Alex Trebek's Wife Says Outpouring of Love for Late Husband Is a
+								'Blessing'
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<div class="row">
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1785002/stock-image-sitcom-friends.webp?w=95&h=95&f=a73c7b880d2d94e6b0871be14be01dae"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Spots Scene Where Monica's Double Appears on Screen
+										'Friends' Fan Spots Scene Where Monica's Double Appears on
+										Screen
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1784970/prince-harry-fixes-meghan-markles-hair.webp?w=95&h=95&f=e8c060452f8b162038a3c61f74fe0f61"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Lovingly Fixes Meghan Markle's Hair in Viral Video Prince
+										Harry Lovingly Fixes Meghan Markle's Hair in Viral Video
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1771473/us-china-flags.webp?w=95&h=95&f=d30088cbd9130e2dc44f6dbeecbb2f15"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Rise to Global Box Office Champs Means for Hollywood's
+										Future What China's Rise to Global Box Office Champs Means
+										for Hollywood's Future
+									</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- SECTION FOR SPORTS NEWS -->
+					<hr />
+					<div class="content--fifth row" id="sports">
+						<h4 class="h4 fw-bold text-muted">Sports</h4>
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1785266/trevor-lawrence.webp?w=397&h=265&f=5ea943a84b94bf11187b1554b87a2c96"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">2021 NFL Draft Day 1 Picks: Results</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1783949/clemson-qb-trevor-lawrence.webp?w=397&h=265&f=afcccbfff6d6194f5382f94af7d36b80"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								How to Watch the 2021 NFL Draft—Dates, Start Time and TV
+								Schedule
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<div class="row">
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1784463/tokyo-olympics-athlete-playbook.webp?w=95&h=95&f=0efe75c2a6105309ec351f9f8f8830be"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Athletes Must Use Tracking App to Monitor Activity Prior to
+										Games Olympic Athletes Must Use Tracking App to Monitor
+										Activity Prior to Games
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1784317/mike-tyson-vs-lennox-lewis.webp?w=95&h=95&f=5a8802524c90870b0baea55ee6829dbf"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Happened the Last Time Mike Tyson Fought Lennox Lewis Here's
+										What Happened the Last Time Mike Tyson Fought Lennox Lewis
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1784151/zach-wilson-byu.webp?w=95&h=95&f=47acc5c168a41a9eb5eab04a497cded3"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										First-Round Picks, Top-Rated Prospects NFL Draft
+										2021—Complete List of First-Round Picks, Top-Rated Prospects
+									</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- SECTION FOR NEWSWEEK EXPERT FORUM NEWS -->
+					<hr />
+					<div class="content--fifth row" id="newsweek">
+						<h4 class="h4 fw-bold text-muted">Newsweek Expert Forum</h4>
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1702746/newsweek-expert-forum.webp?w=397&h=265&f=c8709c236c7800d2c05ae43ad50f2094"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								Newsweek Announces Launch of the Newsweek Expert Forum
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<img
+								src="https://d.newsweek.com/en/full/1731732/newsweek-expert-forum-members-share-industry-insights.webp?w=397&h=265&f=4784c577c4ae85436143f3a38fc9e57f"
+								alt="avatar"
+								class="img-fluid"
+							/>
+							<h5 class="h5 fw-bold">
+								11 Effective Strategies for Boosting Leadership Confidence
+							</h5>
+						</div>
+
+						<div class="col-lg-4 col-md-4 col-sm-12">
+							<div class="row">
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1780680/online-learning.webp?w=95&h=95&f=321ef9987b97fcf6683321c66204d890"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										What the Future of Learning Should Look Like
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1731732/newsweek-expert-forum-members-share-industry-insights.webp?w=95&h=95&f=42086c92e61f8103a4e4842f2188c8a9"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Struggling With Employee Burnout? Nine Ways to Address It
+									</h6>
+								</div>
+								<hr />
+								<div class="col-lg-3 mb-3">
+									<img
+										src="https://d.newsweek.com/en/full/1777113/managing-aircraft-assets.webp?w=95&h=95&f=61919de5dfa3052fc70071ac850900b4"
+										alt="avatar"
+										class="img-fluid"
+									/>
+								</div>
+								<div class="col-lg-9">
+									<h6 class="h6 fw-bold">
+										Don't Treat Your Aircraft Like Other Assets
+									</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<hr />
+				<div class="subscribe--wrapper row">
+					<div class="col-lg-8 col-md-12 col-sm-12">
+						<h6 class="h6 fw-bold text-uppercase">subscribe</h6>
+						<div class="subscribe--main row">
+							<div class="col-lg-4">
+								<img
+									src="https://d.newsweek.com/en/full/1783522/cover-may-7-2021.jpg?w=170&q=95&f=acdf7b42d02f1627115b632399f7a2e5"
+									alt="avatar"
+									class="img-fluid"
+								/>
+							</div>
+							<div
+								class="col-lg-8 d-flex flex-column align-items-start justify-content-center"
+							>
+								<h5 class="h5 fw-bold">
+									In-depth Stories You Don't See Elsewhere About Topics You Want
+									to Read!
+								</h5>
+								<p>
+									All Access + Weekly Delivery. Choose A Membership That's
+									Perfect for You!
+								</p>
+								<a
+									href="#"
+									class="btn btn-danger btn-md fw-bolder text-uppercase"
+									>subscribe</a
+								>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-12 col-sm-12">
+						<h6 class="h6 fw-bold text-uppercase">newsletter</h6>
+						<div class="newsletter--main row">
+							<div class="col-lg-6 col-md-6 col-sm-12 newsletter--first"></div>
+							<div class="col-lg-6 col-md-6 col-sm-12 newsletter--second">
+								<h4 class="h4 fw-bold">Best of Newsweek via email</h4>
+								<p>
+									Daily news headlines & detailed briefings enjoyed by half a
+									million readers.
+								</p>
+								<input
+									type="text"
+									class="form-control"
+									placeholder="Email address"
+								/>
+								<a href="#" class="btn btn-danger btn-md text-uppercase"
+									>free sign up</a
+								>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr />
+			</main>
+
+			<footer class="footer p-3">
+				<div class="d-flex flex-lg-row flex-sm-column justify-content-between">
+					<div class="footer__logo">
+						<svg
+							version="1.1"
+							width="200"
+							height="40"
+							xmlns="http://www.w3.org/2000/svg"
+							xmlns:xlink="http://www.w3.org/1999/xlink"
+							x="0px"
+							y="0px"
+							viewBox="0 0 396 60"
+							style="enable-background: new 0 0 395.6 60"
+							xml:space="preserve"
+						>
+							<g>
+								<path
+									class="st0"
+									d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+								></path>
+							</g>
+						</svg>
+						<p class="text-muted my-0 ml-3">
+							© <span id="year"></span> NEWSWEEK DIGITAL LLC
+						</p>
+					</div>
+
+					<div class="footer__icons">
+						<a class="facebook" href="https://www.facebook.com" target="_blank"
+							><i class="fab fa-facebook-square fa-2x"></i
+						></a>
+						<a class="twitter" href="https://www.twitter.com" target="_blank"
+							><i class="fab fa-twitter fa-2x"></i
+						></a>
+						<a
+							class="instagram"
+							href="https://www.instagram.com"
+							target="_blank"
+							><i class="fab fa-instagram-square fa-2x"></i
+						></a>
+						<a class="linkedin" href="https://www.linkedin.com" target="_blank"
+							><i class="fab fa-linkedin-in fa-2x"></i
+						></a>
+					</div>
+				</div>
+				<hr />
+
+				<div class="row">
+					<div class="col-lg-12">
+						<ul class="nav">
+							<li class="nav-link">Editions:</li>
+							<li class="nav-link">U.S. Edition</li>
+							<li class="nav-link">日本</li>
+							<li class="nav-link">Pakistan</li>
+							<li class="nav-link">Polska</li>
+							<li class="nav-link">România</li>
+						</ul>
+					</div>
+					<div class="col-lg-12">
+						<ul class="nav">
+							<li class="nav-link">About us</li>
+							<li class="nav-link">Corrections</li>
+							<li class="nav-link">Contact Us</li>
+							<li class="nav-link">Editorial Guidelines</li>
+							<li class="nav-link">Advertise</li>
+							<li class="nav-link">Copyright</li>
+							<li class="nav-link">Terms & Conditions</li>
+							<li class="nav-link">Privacy Policy</li>
+							<li class="nav-link">Cookie Policy</li>
+							<li class="nav-link">Terms of Sale</li>
+							<li class="nav-link">Archive</li>
+							<li class="nav-link">Announcements</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<!-- JS for Bootstrap Bundle-->
+		<script src="./src/style/css/bootstrap/bootstrap.bundle.min.js"></script>
+		<!-- JS for Boostrap Propper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+			integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+			crossorigin="anonymous"
+		></script>
+		<script src="./src/style/css/bootstrap/bootstrap.min.js"></script>
+		<!-- JS for Dynamic -->
+		<script src="./src/js/main.js"></script>
+	</body>
+</html>
